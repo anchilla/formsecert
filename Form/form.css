@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	background-image: linear-gradient(to bottom right, #de6dd6, #f2dc16);
+}
+h1{
+	text-align: center;
+	font-family: "Arial", sans-serif;
+	font-style: oblique;
+	color: #323232;
+	margin-top: 25px;
+	font-size: 37px;
+}
+.input_button{
+	font-size: 20px;
+	border: 3px solid #454646;
+	border-radius: 7px;
+}
+.input_secret{
+	font-size: 20px;
+	border: 3px solid #454646;
+	border-radius: 7px;
+}
+.form_div{
+	padding-top: 10px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+.the_message{
+	text-align: center;
+	font-family: "Arial", sans-serif;
+	font-size: 23px;
+	color: #323232;
+}
+.text{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+}
+
+@media only screen and (max-width: 520px) {
+	.input_secret{
+	font-size: 17px;
+}
+}
+@media only screen and (max-width: 480px) {
+	.form_div{
+	width: 70%;
+}
+
+.text{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	}
+@media only screen and (max-width: 320px) {
+	.form_div{
+	width: 80%;
+}
+}
